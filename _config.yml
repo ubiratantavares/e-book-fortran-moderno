@@ -1,0 +1,25 @@
+# Configuração do Jupyter Book
+title: "Fortran Moderno para Cientistas e Engenheiros"
+author: "Ubiratan Tavares"
+logo: ""
+only_build_toc_files: true
+
+execute:
+  execute_notebooks: "off"
+
+parse:
+  myst_enable_extensions:
+    - colon_fence
+    - deflist
+    - dollarmath
+    - linkify
+    - substitution
+    - tasklist
+
+html:
+  favicon: ""
+  use_issues_button: false
+  use_repository_button: false
+  use_edit_page_button: false
+  extra_navbar: "Este e-book é parte de um projeto educacional sobre Fortran moderno."
+  extra_footer: "© 2025 Ubiratan Tavares. Licenciado sob CC BY-NC-SA 4.0."
