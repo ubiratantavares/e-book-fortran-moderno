@@ -1,0 +1,86 @@
+format: jb-book
+root: prefacio
+
+chapters:
+  - file: capitulo1
+    sections:
+      - file: cap1/historia
+      - file: cap1/por_que_aprender
+      - file: cap1/filosofia
+
+  - file: capitulo2
+    sections:
+      - file: cap2/conjunto_caracteres
+      - file: cap2/estrutura_programa
+      - file: cap2/tipos_variaveis
+      - file: cap2/operadores_expressoes
+      - file: cap2/entrada_saida
+
+  - file: capitulo3
+    sections:
+      - file: cap3/controle_fluxo
+      - file: cap3/if
+      - file: cap3/select_case
+      - file: cap3/loops
+
+  - file: capitulo4
+    sections:
+      - file: cap4/terminologia
+      - file: cap4/declaracao_arrays
+      - file: cap4/operacoes_completas
+      - file: cap4/secoes
+      - file: cap4/alocaveis
+      - file: cap4/paralelismo
+
+  - file: capitulo5
+    sections:
+      - file: cap5/introducao
+      - file: cap5/subrotinas
+      - file: cap5/funcoes
+      - file: cap5/argumentos
+      - file: cap5/intrinsecos
+      - file: cap5/recursivas
+      - file: cap5/arrays_argumentos
+
+  - file: capitulo6
+    sections:
+      - file: cap6/conceito_modulo
+      - file: cap6/vantagens
+      - file: cap6/use
+      - file: cap6/public_private
+      - file: cap6/subprogramas_internos
+      - file: cap6/interfaces_genericas
+
+  - file: capitulo7
+    sections:
+      - file: cap7/comandos_io
+      - file: cap7/arquivos
+      - file: cap7/formatacao
+      - file: cap7/namelist
+      - file: cap7/include
+      - file: cap7/posicionamento
+
+  - file: capitulo8
+    sections:
+      - file: cap8/oop
+      - file: cap8/tipos_derivados
+      - file: cap8/ponteiros
+      - file: cap8/listas_encadeadas
+
+  - file: capitulo9
+    sections:
+      - file: cap9/motivos_interop
+      - file: cap9/mecanismos
+
+  - file: capitulo10
+    sections:
+      - file: cap10/bibliotecas
+      - file: cap10/graficos
+
+  - file: apendices
+    sections:
+      - file: apendices/comandos_rapidos
+      - file: apendices/recursos_obsoletos
+      - file: apendices/solucoes_exercicios
+      - file: apendices/glossario
+
